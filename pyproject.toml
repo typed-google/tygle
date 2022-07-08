@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "tygle"
 version = "0.1.0"
-description = ""
+description = "Typed Google or simply tygle."
 authors = ["shmookoff <shmookoff@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/typed-google/tygle"
 
 [tool.poetry.dependencies]
 python = "^3.10"
