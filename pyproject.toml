@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tygle"
-version = "0.1.0"
+version = "0.1.1"
 description = "Typed Google or simply tygle."
 authors = ["shmookoff <shmookoff@gmail.com>"]
 readme = "README.md"
@@ -10,6 +10,13 @@ repository = "https://github.com/typed-google/tygle"
 python = "^3.10"
 pydantic = "^1.9.0"
 aiogoogle = "4.0.0"
+
+tygle-drive = { version = "^0.1.0", optional = true }
+tygle-sheets = { version = "^0.1.0", optional = true }
+
+[tool.poetry.extras]
+drive = ["tygle-drive"]
+sheets = ["tygle-sheets"]
 
 [tool.poetry.group.dev.dependencies]
 pylint = "^2.13.4"

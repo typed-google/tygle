@@ -7,11 +7,10 @@ Created using [Aiogoogle](https://github.com/omarryhan/aiogoogle) for interactio
 🛑 This is a WIP package. Expect bugs and changes.
 
 ## Installation
-In order to install the package, install tygle itself and APIs you need.  
-For example:  
-`pip install tygle[tygle-sheets]`
+In order to install the package, install tygle itself and the APIs you need.  
+For example: `pip install tygle[sheets]`
 
 ## Supported APIs
 Currently, tygle only supports following APIs:  
-1. Sheets
-2. Drive
+1. [Sheets](https://github.com/typed-google/tygle-sheets) – `tygle[sheets]`
+2. [Drive](https://github.com/typed-google/tygle-drive) – `tygle[drive]`
