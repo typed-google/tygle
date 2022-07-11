@@ -3,11 +3,11 @@ from typing import TYPE_CHECKING, ClassVar
 from pydantic import BaseModel
 
 if TYPE_CHECKING:
-    from tygle.base.rest import REST
+    from tygle.base import RESTs
 
 
 class Resource(BaseModel):
-    rest: ClassVar["REST"]
+    __rests__: ClassVar["RESTs"]
 
     class Config:
         use_enum_values = True
