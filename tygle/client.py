@@ -5,7 +5,7 @@ from aiogoogle.auth.creds import ClientCreds, ServiceAccountCreds, UserCreds
 from aiogoogle.models import Response as AiogoogleResponse
 
 if TYPE_CHECKING:
-    from tygle.base import Request
+    from tygle.base.requests import Request
 
 
 class Client:
