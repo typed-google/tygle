@@ -1,6 +1,6 @@
 from typing import Any, Generic, TypeVar
 
-from .request import Request
+from .requests import Request
 
 RequestT = TypeVar("RequestT", bound=Request)
 
