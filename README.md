@@ -14,3 +14,5 @@ For example: `pip install tygle[sheets]`
 Currently, tygle only supports following APIs:  
 1. [Sheets](https://github.com/typed-google/tygle-sheets) – `tygle[sheets]`
 2. [Drive](https://github.com/typed-google/tygle-drive) – `tygle[drive]`
+3. [Docs](https://github.com/typed-google/tygle-docs) - `tygle[docs]`
+Keep in mind, these packages were created to suit the needs of another project. The bare minumim is realized.
